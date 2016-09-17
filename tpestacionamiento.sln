@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tpestacionamiento", "tpestacionamiento\tpestacionamiento.csproj", "{0BE352AA-D2A3-4B77-ABA3-06713B52BB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vehiculos", "vehiculos\vehiculos.csproj", "{BF7F6F25-757E-475E-B63E-8F20981E340C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE352AA-D2A3-4B77-ABA3-06713B52BB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE352AA-D2A3-4B77-ABA3-06713B52BB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE352AA-D2A3-4B77-ABA3-06713B52BB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE352AA-D2A3-4B77-ABA3-06713B52BB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7F6F25-757E-475E-B63E-8F20981E340C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7F6F25-757E-475E-B63E-8F20981E340C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7F6F25-757E-475E-B63E-8F20981E340C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7F6F25-757E-475E-B63E-8F20981E340C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
