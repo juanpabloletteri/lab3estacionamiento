@@ -38,34 +38,6 @@
             eColores.Rojo,
             eColores.Amarillo,
             eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
             eColores.Azul});
             // 
             // btnAceptar
@@ -106,8 +78,6 @@
             this.Name = "frmMoto";
             this.Text = "frmMoto";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMoto_FormClosing);
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMoto_FormClosed);
-            this.Load += new System.EventHandler(this.frmMoto_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.txtPatente, 0);
             this.Controls.SetChildIndex(this.txtMarca, 0);

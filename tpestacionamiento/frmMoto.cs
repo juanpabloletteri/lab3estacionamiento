@@ -30,6 +30,7 @@ namespace tpestacionamiento
             try
             {
                 this._motoDelFormulario = new Moto((eColores)Enum.Parse(typeof(eColores), cmbColor.SelectedItem.ToString()), txtMarca.Text, txtPatente.Text, Convert.ToSingle(txtCilindrada.Text));
+                MessageBox.Show("Guardado exitoso, confirme al salir");
             }
             catch (Exception ex)
             {
@@ -37,20 +38,18 @@ namespace tpestacionamiento
             }
         }
 
-        private void frmMoto_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void frmMoto_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            if (MessageBox.Show("Desea agregar la moto a la lista antes de salir?", "Saliendo",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+            {
+                ((frmGestionAutomovil)this.Owner).Agrega(this._motoDelFormulario);
+                e.Cancel = false;
+            }
+            else
+            {
+                e.Cancel = false;
+            }
         }
 
-        private void frmMoto_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            frmGestionAutomovil padre = new frmGestionAutomovil();
-            padre.Agrega(_motoDelFormulario);
-        }
     }
 }

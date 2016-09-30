@@ -52,3 +52,19 @@ F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\tpestacionamiento\o
 F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmVehiculo.resources
 F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.Properties.Resources.resources
 F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.csproj.GenerateResource.Cache
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\bin\Debug\tpestacionamiento.exe.config
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.exe
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.pdb
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\bin\Debug\tpestacionamiento.exe
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\bin\Debug\tpestacionamiento.pdb
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\bin\Debug\vehiculos.dll
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\bin\Debug\vehiculos.pdb
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.csprojResolveAssemblyReference.cache
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmAcerca.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmPrincipal.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmAuto.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmGestionAutomovil.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmMoto.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.frmVehiculo.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.Properties.Resources.resources
+D:\Escritorio\lab3estacionamiento\tpestacionamiento\obj\Debug\tpestacionamiento.csproj.GenerateResource.Cache

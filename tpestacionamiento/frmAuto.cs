@@ -28,12 +28,23 @@ namespace tpestacionamiento
         {
             try
             {
-                this._autoDelFormulario = new Auto((eColores)Enum.Parse(typeof(eColores), cmbColor.SelectedItem.ToString()), txtMarca.Text, txtPatente.Text, Convert.ToInt32(txtPuertas));
+                this._autoDelFormulario = new Auto((eColores)Enum.Parse(typeof(eColores), cmbColor.SelectedItem.ToString()), txtMarca.Text, txtPatente.Text, Convert.ToInt32(txtPuertas.Text));
+                MessageBox.Show("Guardado exitoso, confirme agregar al salir");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void frmAuto_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Desea agregar el auto a la lista antes de salir?","Saliendo...",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.OK)
+            {
+                ((frmGestionAutomovil)this.Owner).Agrega(this._autoDelFormulario);
+                e.Cancel = false;
+            }
+            e.Cancel = false;
         }
     }
 }

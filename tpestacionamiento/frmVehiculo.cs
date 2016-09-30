@@ -27,20 +27,6 @@ namespace tpestacionamiento
             }
         }
 
-        public virtual void btnAceptar_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Desea agregar?","Agregar", MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.OK)
-            {
-                //hacer algo
-            }
-        }
 
-        public virtual void btnCancelar_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Desea Cancelar?","Cancelar", MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.Cancel)
-            {
-                //hacer algo
-            }
-        }
     }
 }

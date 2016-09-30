@@ -38,14 +38,6 @@
             eColores.Rojo,
             eColores.Amarillo,
             eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
-            eColores.Azul,
-            eColores.Rojo,
-            eColores.Amarillo,
-            eColores.Negro,
             eColores.Azul});
             // 
             // btnAceptar
@@ -79,6 +71,7 @@
             this.Controls.Add(this.label4);
             this.Name = "frmAuto";
             this.Text = "frmAuto";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAuto_FormClosing);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.txtPatente, 0);
             this.Controls.SetChildIndex(this.txtMarca, 0);

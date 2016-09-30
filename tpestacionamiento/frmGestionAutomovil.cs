@@ -22,7 +22,7 @@ namespace tpestacionamiento
         
         public void agregaVehiculo(Vehiculo v)
         {
-            _lista.Add(v);
+            this._lista.Add(v);
         }
         public frmGestionAutomovil()
         {
@@ -49,6 +49,7 @@ namespace tpestacionamiento
         private void nuevoautoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAuto formularioAuto = new frmAuto();
+            formularioAuto.Owner = this;
             formularioAuto.ShowDialog();
         }
     }
