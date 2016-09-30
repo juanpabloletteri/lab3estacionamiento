@@ -37,6 +37,20 @@ namespace tpestacionamiento
             }
         }
 
+        private void frmMoto_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void frmMoto_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void frmMoto_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            frmGestionAutomovil padre = new frmGestionAutomovil();
+            padre.Agrega(_motoDelFormulario);
+        }
     }
 }

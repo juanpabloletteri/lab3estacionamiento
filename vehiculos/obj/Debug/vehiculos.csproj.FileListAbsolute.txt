@@ -3,3 +3,8 @@ F:\Google Drive\UTN\3 año\Laboratorio 3\tpestacionamiento\vehiculos\bin\Debug\v
 F:\Google Drive\UTN\3 año\Laboratorio 3\tpestacionamiento\vehiculos\obj\Debug\vehiculos.dll
 F:\Google Drive\UTN\3 año\Laboratorio 3\tpestacionamiento\vehiculos\obj\Debug\vehiculos.pdb
 F:\Google Drive\UTN\3 año\Laboratorio 3\tpestacionamiento\vehiculos\obj\Debug\vehiculos.csprojResolveAssemblyReference.cache
+F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\vehiculos\bin\Debug\vehiculos.dll
+F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\vehiculos\bin\Debug\vehiculos.pdb
+F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\vehiculos\obj\Debug\vehiculos.csprojResolveAssemblyReference.cache
+F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\vehiculos\obj\Debug\vehiculos.dll
+F:\Google Drive\UTN\3 año\Laboratorio 3\lab3estacionamiento\vehiculos\obj\Debug\vehiculos.pdb
